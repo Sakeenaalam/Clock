@@ -1,4 +1,3 @@
-```markdown
 # Clock Project
 
 This project is a digital clock application created using HTML, CSS, and JavaScript. It incorporates four major functionalities: alarm clock, world clock, stopwatch, and timer.
