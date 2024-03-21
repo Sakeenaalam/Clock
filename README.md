@@ -9,7 +9,7 @@ This project is a digital clock application created using HTML, CSS, and JavaScr
 - [Setup](#setup)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
+
 
 ## Features
 
