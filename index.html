@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Clock Web App</title>
+<link rel="icon" href="hourglass.png" type="image/x-icon">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <h1>Clock</h1>
+  <h1 class="current-time" id="current-time"></h1>
+  <div class="functions">
+    <div class="function" id="alarm">
+        <h2>Alarm</h2>
+        <input type="number" id="alarm-minutes" placeholder="Minutes">
+        <input type="number" id="alarm-seconds" placeholder="Seconds">
+        <button onclick="setAlarm()">Set Alarm</button>
+        <button onclick="stopAlarm()">Stop Alarm</button> <!-- Added stop alarm button -->
+        <p id="alarm-set-time"></p>
+      <audio id="alarm-sound" src="alarm01.mp3"></audio>
+    </div>
+    <div class="function" id="world-clock">
+      <h2>World Clock</h2>
+      <ul id="world-clock-list"></ul>
+    </div>
+    <div class="function" id="stopwatch">
+      <h2>Stopwatch</h2>
+      <p id="stopwatch-display">00:00:00</p>
+      <button onclick="startStopwatch()">Start</button>
+      <button onclick="stopStopwatch()">Stop</button>
+      <button onclick="resetStopwatch()">Reset</button>
+    </div>
+    <div class="function" id="timer">
+        <h2>Timer</h2>
+        <input type="text" id="timer-input" placeholder="HH:MM:SS">
+        <button onclick="setTimer()">Set Timer</button>
+        <button onclick="stopTimer()">Stop Alarm</button> <!-- Added stop alarm button -->
+      </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
